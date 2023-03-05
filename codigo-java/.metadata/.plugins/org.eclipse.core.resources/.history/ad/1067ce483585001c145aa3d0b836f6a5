@@ -1,0 +1,35 @@
+
+public class TestaEscolpo {
+	public static void main(String[] args) {
+		System.out.println("Testando condicionais!");
+		System.out.println("//=============================================//");
+		System.out.println("Teste 1");
+
+		
+		int idade;
+		idade = 20;
+		int quantidadePessoas = 5;
+
+		//compara uma das vareaveis, e se uma for "verdadeira", passa no teste
+		
+		if (idade >= 18 || quantidadePessoas >= 2) {
+			System.out.println("Seja Bem Vindo!");
+		} else {
+			System.out.println("Infelizmente você não pode entrar");
+		}
+		
+		System.out.println("//=============================================//");
+		System.out.println("Teste 2");
+		
+		boolean acompanhado;
+		acompanhado = quantidadePessoas >= 2;
+		
+		//compara os "if's" e se ambos forem "verdadeiros", passarem no teste, a funçaõ é executada. 
+		//Do contrario não executa ou vai para o "else"
+		if (idade >= 18 && acompanhado) {
+			System.out.println("Seja Bem Vindo!");
+		} else {
+			System.out.println("Infelizmente você não pode entrar");
+		}
+	}
+}

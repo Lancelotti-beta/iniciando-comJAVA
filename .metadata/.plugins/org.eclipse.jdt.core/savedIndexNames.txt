@@ -1,0 +1,9 @@
+INDEX VERSION 1.131+C:\Users\bruno\Desktop\alura-java-pastas\.metadata\.plugins\org.eclipse.jdt.core
+336333158.index
+609013868.index
+1865797976.index
+1737561461.index
+442098160.index
+665518073.index
+3877854496.index
+1374762053.index

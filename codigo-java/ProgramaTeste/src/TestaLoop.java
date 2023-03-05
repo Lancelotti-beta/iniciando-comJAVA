@@ -1,0 +1,30 @@
+
+public class TestaLoop {
+
+	public static void main(String[] args) {
+		
+		int number = 6;
+		int cont = 6;
+		
+		System.out.println("Teste do While");
+		while (number < 5) {
+			System.out.println(number);
+			++number; 
+		}
+		
+		System.out.println("______");
+		
+		System.out.println("Teste do Do/While");
+		do {
+			System.out.println(cont);
+			cont++;
+		} while (cont < 5);
+		
+		System.out.println("______");
+		
+		System.out.println("Teste do For");
+		for(int i = 0; i < 5; i++) {
+			System.out.println(i);
+		} 
+	}
+}

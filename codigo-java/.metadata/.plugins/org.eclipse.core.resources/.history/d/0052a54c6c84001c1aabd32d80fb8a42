@@ -1,0 +1,6 @@
+
+public class TestaVariaveis {
+	public static void main(String[] arg) {
+		System.out.println("Olá novo teste");
+	}
+}

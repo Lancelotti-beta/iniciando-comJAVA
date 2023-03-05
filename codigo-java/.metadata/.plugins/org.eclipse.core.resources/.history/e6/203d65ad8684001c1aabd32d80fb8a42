@@ -1,0 +1,11 @@
+
+public class TesteCaracteres {
+	public static void main (String[] args) {
+		char letra = 'c';
+		System.out.println(letra);
+		
+		char valor = 65;
+		System.out.println(valor);
+
+	}
+}

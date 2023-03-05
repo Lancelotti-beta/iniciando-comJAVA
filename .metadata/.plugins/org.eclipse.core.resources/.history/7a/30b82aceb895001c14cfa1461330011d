@@ -1,0 +1,15 @@
+class calculaIMC{
+	public static void main(String args[]){
+		double massa;
+		double altura;
+		double calcula;
+
+		massa = 90;
+		altura = 1.75;
+
+		calcula = massa/(altura*altura);
+
+		System.out.println("seu IMC é de: " + calcula);
+
+	}
+}

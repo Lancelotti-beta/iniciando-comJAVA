@@ -1,0 +1,12 @@
+
+public class TestaLoop {
+
+	public static void main(String[] args) {
+		
+		int number = 1;
+		int cont = 0;
+		do {
+			System.out.println("Uma condição aleatória aqui");
+		} while (number >= cont);
+	}
+}
